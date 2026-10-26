@@ -1,0 +1,1 @@
+Placez ici votre CV en PDF (ex: CV_Idris_Youngwe.pdf), puis mettez cvUrl: "cv/CV_Idris_Youngwe.pdf" dans config.js

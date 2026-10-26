@@ -1,0 +1,1 @@
+Placez ici votre photo (ex: profile.jpg), puis mettez photoUrl: "images/profile.jpg" dans config.js
