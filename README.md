@@ -1,38 +1,38 @@
-# Portfolio – Idris Dimitri Gafi Youngwe
+# Portfolio: Idris Dimitri Gafi Youngwe
 
-Site statique (HTML/CSS/JS), sans installation ni serveur.
+Static website (HTML/CSS/JS). No installation or server needed.
 
 ## Structure
-- `index.html` : la page (sections, design). Les projets et l'expérience s'y modifient directement.
-- `config.js`  : **le fichier à éditer** : email, liens (GitHub, LinkedIn, ResearchGate, Scholar, ORCID), CV, photo, compétences, intérêts de recherche.
-- `cv/` : déposez votre CV PDF ici.
-- `images/` : déposez votre photo, captures de simulation, schémas.
+- `index.html`: the page (sections and design). Projects and experience are edited directly here.
+- `config.js`: **the main file to edit**: email, profile links (GitHub, LinkedIn, ResearchGate, Scholar, ORCID), CV path, photo settings, skills, research interests.
+- `cv/`: your CV (PDF).
+- `images/`: your photo, simulation screenshots, diagrams.
 - `robots.txt`
 
-## Prévisualiser
-Double-cliquez sur `index.html` (ou clic droit > Ouvrir avec le navigateur).
+## Preview locally
+Double-click `index.html` (or right-click > Open with your browser).
 
-## Ajouter vos liens et votre email
-Ouvrez `config.js` avec le Bloc-notes ou VS Code, remplissez `email`, `github`, `linkedin`, `researchgate`... Laissez `""` pour un lien non disponible : il s'affiche alors « à ajouter ».
+## Add or change links and email
+Open `config.js` in a text editor, then fill in `email`, `github`, `linkedin`, `researchgate`, and so on. Leave `""` for a link you don't have: the page then shows it as "not added yet".
 
-## Ajouter le CV et la photo
-1. Copiez le PDF dans `cv/` et la photo dans `images/`.
-2. Dans `config.js` : `cvUrl: "cv/CV_Idris_Youngwe.pdf"` et `photoUrl: "images/profile.jpg"`.
+## CV and photo
+1. Put the PDF in `cv/` and the photo in `images/`.
+2. In `config.js`, set `cvUrl: "cv/YOUR_CV.pdf"` and `photoUrl: "images/YOUR_PHOTO.jpg"`.
 
-## Mettre à jour projets / expérience
-Dans `index.html`, cherchez `id="projects"` ou `id="experience"` et modifiez le texte. Remplacez les mentions « [Add ...] » et les encadrés « Draft » une fois les informations confirmées.
+## Adjust the photo (size, shape, framing)
+1. Open `index.html?adjust` in your browser (add `?adjust` at the end of the address).
+2. A "Photo adjuster" panel appears: set zoom, position, shape and size. You can also try another photo.
+3. Click "Copy settings" and paste the lines into `config.js`, replacing the existing `photo...` lines. Save.
+The panel only appears when the address contains `?adjust`, so visitors never see it.
 
-## Publier gratuitement
-- **Netlify Drop** : glissez le dossier sur app.netlify.com/drop (sous-domaine gratuit `xxx.netlify.app`).
-- **GitHub Pages** : créez un dépôt, envoyez les fichiers, Settings > Pages.
-- **Cloudflare Pages** : même principe.
-Un domaine personnalisé (ex. `idrisyoungwe.com`) est payant (environ 10–15 $/an) ; certaines plateformes permettent de le connecter, vérifiez leurs offres actuelles.
+## Update projects and experience
+In `index.html`, search for `id="projects"` or `id="experience"` and edit the text. Replace the "[Add ...]" lines and the "Draft" notes once the information is confirmed.
 
-## Formulaire de contact
-Il ouvre le client mail de l'utilisateur (aucun envoi depuis la page). Pour un vrai envoi, utilisez un service comme Formspree ou Netlify Forms et renseignez `formEndpoint`.
+## Publish for free
+- **GitHub Pages:** Settings > Pages > Deploy from a branch > `main` / `(root)`. On a free account the repository must be public.
+- **Netlify Drop:** drag the folder onto app.netlify.com/drop.
+- **Cloudflare Pages:** same idea.
+A custom domain is paid (roughly $10-15 per year); hosting stays free.
 
-## Ajuster la photo (taille, forme, cadrage)
-1. Ouvrez `index.html?adjust` dans le navigateur (ajoutez `?adjust` à la fin de l'adresse).
-2. Un panneau « Photo adjuster » apparaît : réglez le zoom, la position, la forme et la taille ; vous pouvez aussi essayer une autre photo.
-3. Cliquez sur « Copy settings » et collez les lignes dans `config.js` (remplacez les lignes `photo...` existantes), puis enregistrez.
-Le panneau n'apparaît que si l'adresse contient `?adjust` : vos visiteurs ne le voient jamais.
+## Contact form
+It opens the visitor's email app with the message pre-filled; nothing is sent from the page itself. For real sending, use a service such as Formspree or Netlify Forms and set `formEndpoint`.

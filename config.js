@@ -1,15 +1,15 @@
-/* ===== FICHIER À MODIFIER : liens, email, CV, photo, compétences, intérêts =====
-   Mettez vos valeurs entre guillemets, enregistrez, puis rafraîchissez la page. */
+/* ===== FILE TO EDIT: links, email, CV, photo, skills, research interests =====
+   Put your values between quotes, save, then refresh the page. */
 const CONFIG={
  email:"idris.gafi@aims-cameroon.org",            // e.g. "name@example.com"
  github:"https://github.com/Dimitrigafi2", linkedin:"https://www.linkedin.com/in/idris-gafi", researchgate:"https://www.researchgate.net/profile/Idris-Dimitri-Gafi-Youngwe", scholar:"", orcid:"",
  docs1:"",            // documentation link for the UAV project
  cvUrl:"cv/CV_Idris_Dimitri_GAFI_YOUNGWE.pdf",            // e.g. "cv/Idris_Youngwe_CV.pdf" (put the file next to this page)
- photoUrl:"images/Best1.jpeg",         // chemin de la photo
- photoZoom:1.8, photoX:43, photoY:4,    // cadrage : zoom (1 à 3) et position (0 à 100 %)
- photoShape:"circle",                   // "circle", "rounded", "square" ou "portrait"
- photoSize:240,                         // taille en pixels
- // Astuce : ouvrez index.html?adjust pour régler la photo avec des curseurs, puis copiez les valeurs ici.
+ photoUrl:"images/Best1.jpeg",         // path to the photo
+ photoZoom:1.8, photoX:43, photoY:4,    // framing: zoom (1 to 3) and position (0 to 100 %)
+ photoShape:"circle",                   // "circle", "rounded", "square" or "portrait"
+ photoSize:240,                         // size in pixels
+ // Tip: open index.html?adjust to tune the photo with sliders, then copy the values here.
  formEndpoint:""      // reserved for a form service (Formspree, Netlify Forms, etc.)
 };
 const SKILLS={
