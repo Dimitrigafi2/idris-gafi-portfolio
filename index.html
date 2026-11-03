@@ -72,8 +72,8 @@ footer{padding:36px 0;border-top:1px solid var(--bd);color:var(--mu);font-size:.
 <section id="overview"><div class="w"><h2>At a glance</h2>
 <div class="grid">
 <div class="card"><h3>Principal interests</h3><p class="mu">Machine learning, computer vision, scientific computing, robotics and autonomous systems, AI-powered software.</p></div>
-<div class="card"><h3>Selected project</h3><p class="mu">Autonomous UAV swarm navigation with visual SLAM, a research project in progress.</p><a href="#projects">See projects</a></div>
-<div class="card"><h3>Currently</h3><p class="mu">Master’s student in Data Science at AIMS Cameroon, and AI/ML &amp; Full-Stack Software Development Intern at Quantum ARISE.</p></div>
+<div class="card"><h3>Selected project</h3><p class="mu">Completed thesis project on autonomous UAV swarm navigation with visual SLAM, studied in simulation.</p><a href="#projects">See projects</a></div>
+<div class="card"><h3>Currently</h3><p class="mu">Mastercard Foundation Scholar at AIMS Cameroon. Thesis defended in June 2026; currently completing an internship at Quantum ARISE as part of the programme, expected to conclude in February 2027.</p></div>
 </div></div></section>
 
 <section id="about"><div class="w"><h2>About me</h2>
@@ -83,49 +83,46 @@ footer{padding:36px 0;border-top:1px solid var(--bd);color:var(--mu);font-size:.
 
 <section id="education"><div class="w"><h2>Education</h2>
 <div class="grid">
-<article class="card"><span class="tag st">In progress</span><h3>Master’s in Data Science</h3><p><strong>African Institute for Mathematical Sciences (AIMS), Cameroon</strong><br><span class="mu">Mastercard Foundation Scholars Program · Expected graduation: June 2027</span></p>
+<article class="card"><span class="tag st">Defended in June 2026</span><h3>Master’s in Data Science</h3><p><strong>African Institute for Mathematical Sciences (AIMS), Cameroon</strong><br><span class="mu">Mastercard Foundation Scholars Program  </span></p>
 <p class="mu">Relevant areas:</p><ul class="b mu"><li>Data Mining and Unsupervised Machine Learning</li><li>Supervised Machine Learning</li><li>Deep Learning Methods and Algorithms</li><li>Big Data</li><li>Computer Vision</li><li>Natural Language Processing</li></ul></article>
-<article class="card"><span class="tag">Completed 2025</span><h3>Master’s in Physics</h3><p><strong>University of Dschang, Cameroon</strong><br><span class="mu">Specialization: Electronics, Electrical Engineering and Automation</span></p>
-<p class="note">Exact degree title to be confirmed against the official certificate.</p></article>
+<article class="card"><span class="tag">Completed 2025</span><h3>Master’s in Physics</h3><p><strong>University of Dschang, Cameroon</strong><br><span class="mu">Specialization: Electronics, Electrical Engineering and Automation</span></p></article>
 </div></div></section>
 
 <section id="experience"><div class="w"><h2>Professional experience</h2>
-<article class="card"><span class="tag st">Current internship</span><h3>AI/ML &amp; Full-Stack Software Development Intern</h3>
-<p><strong>Quantum ARISE</strong>, University of Lomé, Lomé, Togo<br><span class="mu">August 2026 – February 2027 (planned completion)</span></p>
-<ul class="b"><li>Contributing to AI-driven scientific and materials-discovery workflows.</li><li>Developing AI-powered software components, including API development and containerized microservices.</li><li>Working on large language model integration and retrieval-augmented generation (RAG), including local AI deployment.</li><li>Applying software engineering and MLOps practices.</li></ul>
-<p class="mu">Technologies: Python, FastAPI, Docker, Ollama, LangChain, LangGraph, Qdrant, Git, GitHub.</p>
-<p class="note">Draft: confirm exact dates, your actual contributions, and which technologies to list. Project details are kept high-level for confidentiality.</p></article></div></section>
+<article class="card"><span class="tag st">Current internship</span><h3>AI/ML &amp; Software Development Research Intern</h3>
+<p><strong>Quantum ARISE</strong>, Lomé, Togo<br><span class="mu">August 2026 – February 2027 (planned completion)</span></p>
+<ul class="b"><li>Developing AI/ML applications with local LLMs and Ollama</li><li>Working with Python, FastAPI, and multi-service Docker architectures</li><li>Studying and contributing to LLM agent workflows built with LangChain/LangGraph</li><li>Deploying and troubleshooting RAG pipelines (Qdrant, embeddings, document ingestion)</li><li>Using Git/GitHub for collaborative software development</li></ul>
+<p class="mu">Technologies: Python, FastAPI, Docker, Ollama, LangChain, LangGraph, Qdrant, Git, GitHub.</p></article></div></section>
 
 <section id="projects"><div class="w"><h2>Projects</h2>
 <div class="grid">
-<article class="card" id="p1"><span class="tag st">In Progress</span><span class="tag">Research project</span>
-<h3>Autonomous UAV Swarm Navigation Based on Visual SLAM</h3>
+<article class="card" id="p1"><span class="tag st">Completed</span><span class="tag">Research project</span>
+<h3>Autonomous UAV Swarm Navigation Based Visual SLAM: Concept and Design</h3>
 <p class="mu">Robotics | Computer Vision | Autonomous Systems | Simulation</p>
-<p>Design of autonomous navigation for a two-UAV swarm using camera-based visual SLAM, studied in simulation.</p>
+<p>Designed and studied autonomous navigation for a two-UAV swarm using camera-based visual SLAM in simulation.</p>
 <p><span class="tag">ROS 2 Humble</span><span class="tag">Gazebo</span><span class="tag">ArduPilot SITL</span><span class="tag">MAVLink / MAVProxy</span><span class="tag">ORB-SLAM3 / RTAB-Map</span><span class="tag">RViz2</span><span class="tag">Python</span></p>
 <details><summary>View Project</summary>
-<p><strong>Objective.</strong> Investigate how camera-based perception, localization, mapping, and robotic simulation can contribute to autonomous navigation and coordination of two UAVs.</p>
+<p><strong>Objective.</strong> The project investigated how camera-based perception, localization, mapping, and robotic simulation can support autonomous navigation and coordination of two UAVs.</p>
 <p><strong>Why it is hard.</strong> UAVs have limited payload and compute, move fast in three dimensions, and often cannot rely on GPS indoors or in cluttered areas.</p>
 <p><strong>Role of visual SLAM.</strong> It estimates a vehicle’s pose and builds a map from camera images alone, which supports navigation without external positioning.</p>
 <p><strong>Purpose of simulation.</strong> Gazebo with ArduPilot SITL allows safe, repeatable testing before any hardware is considered.</p>
-<p><strong>Environment and workflow.</strong> Two simulated drones with RGB cameras, connected through ROS 2 and MAVLink; the intended workflow is image capture, SLAM-based localization and mapping, then navigation commands, visualized in RViz2.</p>
-<p><strong>Status and challenges.</strong> Research in progress; not a completed swarm system. <em>[Add a precise status paragraph and remaining challenges.]</em></p>
-<p class="note">No results, flight tests, or metrics are claimed. Space reserved for simulation screenshots and an architecture diagram once available.</p>
+<p><strong>Environment and workflow.</strong> The simulation used two drones with RGB cameras connected through ROS 2 and MAVLink. The workflow covered image capture, SLAM-based localization and mapping, and navigation commands visualized in RViz2.</p>
+<p><strong>Status.</strong> Thesis defended in June 2026.</p>
 <p><a class="btn" data-link="github" data-label="GitHub repository" href="#">GitHub repository</a> <a class="btn" data-link="docs1" data-label="Documentation" href="#">Documentation</a></p></details></article>
 
 <article class="card" id="p2"><span class="tag st">Ongoing</span><span class="tag">Internship</span>
 <h3>AI-Powered Software Systems (Quantum ARISE)</h3>
 <p class="mu">Artificial Intelligence | Software Engineering | Backend Development | RAG</p>
-<p>My experience developing and integrating AI-powered software components during my internship. Neutral title used pending approval to name specific projects.</p>
+<p>Contributed to AI-powered software components during my internship, including backend APIs, LLM integration, and retrieval-augmented generation.</p>
 <p><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Docker</span><span class="tag">Ollama</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">Qdrant</span></p>
 <details><summary>View Project</summary>
 <p>Areas of work include AI-powered workflows, backend API development, LLM integration, retrieval-augmented generation, containerized services, local AI inference, vector-search integration, and testing and debugging.</p>
-<p class="note">Confidential: no source code, internal architecture, screenshots, or project names are shown. My contribution covers specific components, not an entire product, and this page does not imply endorsement by the organization. <em>[Review and approve any further detail before publishing.]</em></p></details></article>
+ </details></article>
 </div></div></section>
 
 <section id="skills"><div class="w"><h2>Technical skills</h2>
 <div class="grid" id="sk"></div>
-<p class="note">Draft list: confirm each item you can substantiate. Optional labels (“Experienced with”, “Working knowledge”, “Currently learning”) can be added per skill in the <code>SKILLS</code> data; no percentages are used.</p></div></section>
+</div></section>
 
 <section id="research"><div class="w"><h2>Research interests</h2>
 <p class="mu">These are interests and intended directions, not necessarily completed research contributions.</p>
@@ -146,7 +143,7 @@ footer{padding:36px 0;border-top:1px solid var(--bd);color:var(--mu);font-size:.
 <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
 <div><p class="links" data-set="all"></p><p><a class="btn" id="mail" href="#">Email me directly</a></p></div>
 <div><form id="cf" novalidate><label class="f">Name<input name="n" required autocomplete="name"></label><label class="f">Email<input name="e" type="email" required autocomplete="email"></label><label class="f">Subject<input name="s" required></label><label class="f">Message<textarea name="m" rows="5" required></textarea></label><button class="btn p" type="submit">Prepare email</button><p class="mu" id="fs" role="status" style="margin:0;font-size:.9rem"></p></form>
-<p class="note">No form service is configured, so this opens your email app with the message pre-filled; nothing is sent from this page. See <code>CONFIG.formEndpoint</code> to connect one later.</p></div>
+<p class="note">Your email app will open with your message filled in. Review it and send it from there. This page doesn’t send or store your message.</p></div>
 </div></div></section>
 </main>
 <footer><div class="w"><div><strong>Idris Dimitri Gafi Youngwe</strong><br>Intelligent solutions at the intersection of AI, science, and engineering.<br>© <span id="yr"></span></div>
@@ -158,10 +155,10 @@ const LINKS=[["github","GitHub"],["linkedin","LinkedIn"],["researchgate","Resear
 const $=s=>document.querySelector(s),esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 $("#sk").innerHTML=Object.entries(SKILLS).map(([k,v])=>`<div class="card"><h3>${esc(k)}</h3>${v.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}</div>`).join("");
 $("#ri").innerHTML=RESEARCH.map(([a,b])=>`<div class="card"><h3 style="font-size:1.05rem">${esc(a)}</h3><p class="mu" style="margin:0">${esc(b)}</p></div>`).join("");
-function setLink(a,key,label){const u=CONFIG[key];if(u){a.href=u;a.target="_blank";a.rel="noopener noreferrer"}else{a.removeAttribute("href");a.setAttribute("aria-disabled","true");a.title="Link not added yet";a.textContent=label+" (add link)"}}
+function setLink(a,key,label){const u=CONFIG[key];if(u){a.href=u;a.target="_blank";a.rel="noopener noreferrer"}else{a.hidden=true}}
 document.querySelectorAll("[data-link]").forEach(a=>setLink(a,a.dataset.link,a.dataset.label));
 document.querySelectorAll(".links").forEach(p=>{const set=p.dataset.set,list=LINKS.filter(([k])=>set==="main"?["github","linkedin","researchgate"].includes(k):set==="research"?["researchgate","scholar","orcid"].includes(k):true);
- p.innerHTML=list.map(([k,l])=>CONFIG[k]?`<a class="btn" style="margin:0 8px 8px 0" href="${esc(CONFIG[k])}" target="_blank" rel="noopener noreferrer">${l}</a>`:set==="main"?"":`<span class="tag" title="Not added yet">${l}: not added yet</span>`).join(" ")});
+ p.innerHTML=list.filter(([k])=>CONFIG[k]).map(([k,l])=>`<a class="btn" style="margin:0 8px 8px 0" href="${esc(CONFIG[k])}" target="_blank" rel="noopener noreferrer">${l}</a>`).join(" ")});
 const cvb=$("#cvb");if(CONFIG.cvUrl){cvb.href=CONFIG.cvUrl;cvb.setAttribute("download","");$("#cvn").hidden=true}else{cvb.setAttribute("aria-disabled","true");cvb.removeAttribute("href");$("#cvn").textContent="Placeholder: no CV file added yet. Put your PDF next to this page and set CONFIG.cvUrl to its path."}
 const mail=$("#mail");if(CONFIG.email)mail.href="mailto:"+CONFIG.email;else{mail.setAttribute("aria-disabled","true");mail.removeAttribute("href");mail.textContent="Email (address not added yet)"}
 $("#cf").addEventListener("submit",e=>{e.preventDefault();const f=e.target,s=$("#fs");

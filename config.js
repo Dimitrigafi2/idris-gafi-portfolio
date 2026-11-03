@@ -10,12 +10,19 @@ const CONFIG={
  photoShape:"circle",                   // "circle", "rounded", "square" or "portrait"
  photoSize:240,                         // size in pixels
  // Tip: open index.html?adjust to tune the photo with sliders, then copy the values here.
- formEndpoint:""      // reserved for a form service (Formspree, Netlify Forms, etc.)
 };
 const SKILLS={
- "Artificial Intelligence & Machine Learning":["Supervised Machine Learning","Unsupervised Machine Learning","Deep Learning","Computer Vision","Natural Language Processing","Large Language Model Integration","Retrieval-Augmented Generation"],
- "Data Science & Scientific Computing":["Data Analysis","Statistical Methods","Mathematical Modelling","Numerical Methods","Optimization","Python","R","NumPy","Pandas"],
- "Software Development & AI Infrastructure":["Python","FastAPI","REST API Development","Git and GitHub","Docker","Ollama","LangChain","LangGraph","Qdrant"],
- "Robotics & Autonomous Systems":["ROS 2","Gazebo","ArduPilot SITL","MAVLink","Visual SLAM","Autonomous Navigation Concepts"],
- "Physics & Engineering":["Physics","Electronics","Electrical Engineering","Automation","Control Systems","Signal Processing","Linear Algebra","Probability"]};
-const RESEARCH=[["AI for Science","Applying AI to scientific discovery workflows."],["Machine Learning for Scientific Applications","Data-driven methods for scientific problems."],["Computer Vision","Visual perception for intelligent systems."],["Robotics & Autonomous Systems","Navigation and coordination of autonomous vehicles."],["Visual SLAM & Autonomous Navigation","Camera-based localization and mapping."],["Intelligent Systems","Integrating AI into reliable engineered systems."],["Scientific Computing","Numerical and computational methods."],["Physics-Informed & Data-Driven Modelling","Combining physical knowledge with learning."],["AI-Enabled Engineering","AI applied to electrical and automation engineering."]];
+ "Artificial Intelligence & Machine Learning":["Supervised Machine Learning","Unsupervised Machine Learning","Deep Learning","Computer Vision","Natural Language Processing (NLP)","Large Language Model (LLM) Integration","Retrieval-Augmented Generation (RAG)"],
+ "Data Science & Scientific Computing":["Data Analysis","Statistical Analysis","Mathematical Modelling","Numerical Methods","Mathematical Optimization","Linear Algebra","Probability & Statistics","Python","R","NumPy","Pandas"],
+ "Software Development & AI Infrastructure":["Python","FastAPI","REST API Development","Git & GitHub","Docker","Ollama","LangChain","LangGraph","Qdrant"],
+ "Robotics & Autonomous Systems":["ROS 2","Gazebo","ArduPilot SITL","MAVLink","Visual SLAM","Autonomous Navigation","Multi-Robot Systems"],
+ "Physics, Electronics & Engineering":["Physics","Electronics","Electrical Engineering","Automation","Control Systems","Signal Processing"]};
+const RESEARCH=[
+ ["AI for Science & Scientific Machine Learning","Exploring artificial intelligence and machine learning methods for scientific discovery, simulation, and scientific applications."],
+ ["Computer Vision & Visual Perception","Investigating computational methods for image understanding, visual recognition, and perception in intelligent systems."],
+ ["Robotics & Autonomous Systems","Exploring intelligent robotic systems, autonomous navigation, and coordination of multiple autonomous agents."],
+ ["Visual SLAM & Autonomous Navigation","Investigating camera-based localization, mapping, and navigation techniques for autonomous robots and unmanned aerial vehicles."],
+ ["Physics-Informed & Data-Driven Modelling","Combining physical principles, mathematical models, and machine learning to address scientific and engineering problems."],
+ ["Scientific Computing & Numerical Methods","Applying computational mathematics, numerical algorithms, and simulation techniques to scientific and engineering applications."],
+ ["Intelligent Systems & AI-Enabled Engineering","Exploring the integration of artificial intelligence, computational methods, and control systems into intelligent engineering solutions."]
+];
