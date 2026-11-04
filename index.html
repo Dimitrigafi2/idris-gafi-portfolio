@@ -27,7 +27,7 @@ nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}nav ul a{color:v
 @media(max-width:860px){#mb{display:block}nav ul{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;background:var(--bg);padding:12px 20px;border-bottom:1px solid var(--bd);gap:4px}nav ul.open{display:flex}nav ul a{display:block;padding:10px 0;font-size:1rem}}
 .btn{display:inline-block;padding:12px 22px;border-radius:10px;border:1px solid var(--ac);color:var(--ac);text-decoration:none;font-weight:600;background:none;font-size:1rem;cursor:pointer;min-height:44px}
 .btn.p{background:var(--ac);color:var(--btn)}.btn:hover{filter:brightness(1.1)}.btn[aria-disabled=true]{opacity:.5;pointer-events:none;border-style:dashed}
-.hero{display:grid;grid-template-columns:1fr calc(var(--pic,240px) + 20px);gap:40px;align-items:center;padding:64px 0}
+.hero{display:grid;grid-template-columns:1fr calc(var(--pic,240px) + 20px);gap:40px;align-items:center;padding:64px 20px}
 @media(max-width:760px){.hero{grid-template-columns:1fr}.pic{order:-1;margin:0 auto}}
 .eyebrow{color:var(--ac2);font-weight:600;font-size:.95rem}.hero h1{font-size:clamp(2rem,5vw,3rem)}
 .pic{width:var(--pic,240px);max-width:100%;aspect-ratio:var(--ar,1);border-radius:var(--rad,50%);border:2px solid var(--ac);background:var(--card);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;overflow:hidden;position:relative;color:var(--mu);font-size:.85rem}
